@@ -11,3 +11,37 @@ More: https://github.com/firdavsDev/advanced-python/blob/main/data_structures/co
 """
 
 from collections import Counter
+
+# Bad
+words = ["apple", "banana", "apple", "cherry", "banana", "date"]
+word_count = {}
+for word in words:
+    if word in word_count:
+        word_count[word] += 1
+    else:
+        word_count[word] = 1
+
+# Good
+from collections import Counter
+
+words = ["apple", "banana", "apple", "cherry", "banana", "date"]
+word_count = Counter(words)
+
+# Output: Counter({'apple': 2, 'banana': 2, 'cherry': 1, 'date': 1})
+
+
+################### Django loyihada ###################
+
+
+def product_stats(request):
+    # Bad
+    categories = {}
+    for product in Product.objects.all():
+        if product.category in categories:
+            categories[product.category] += 1
+        else:
+            categories[product.category] = 1
+
+    # Good
+    categories = Counter(product.category for product in Product.objects.all())
+    return render(request, "product_stats.html", {"categories": categories})
