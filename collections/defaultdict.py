@@ -10,11 +10,14 @@ for word in word_list:
         word_count[word] = 0
     word_count[word] += 1
 
+
 # Good
 from collections import defaultdict
 
 word_list = ["apple", "banana", "apple", "cherry", "banana", "date"]
 word_count = defaultdict(int)
+
+word_count = {}
 for word in word_list:
     word_count[word] += 1
 

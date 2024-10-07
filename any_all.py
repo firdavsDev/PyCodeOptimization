@@ -8,4 +8,7 @@ for num in numbers:
 
 # Good
 numbers = [1, 2, 3, 4, 5]
-all_positive = all(num > 0 for num in numbers)
+all_positive = all(num > 0 for num in numbers)  # True
+
+
+# or or or or --> any()

@@ -21,11 +21,16 @@ for word in words:
     else:
         word_count[word] = 1
 
+
+print(word_count)
+
 # Good
 from collections import Counter
 
 words = ["apple", "banana", "apple", "cherry", "banana", "date"]
 word_count = Counter(words)
+print(word_count.most_common(2))
+
 
 # Output: Counter({'apple': 2, 'banana': 2, 'cherry': 1, 'date': 1})
 

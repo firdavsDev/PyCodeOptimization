@@ -8,12 +8,13 @@ suppress() - ma'lum xatolarni e'tiborsiz qoldirish uchun kontekst menejeri.
 """
 
 # Bad
+import os
+
 try:
     os.remove("temp_file.txt")
 except FileNotFoundError:
     pass
 
-import os
 
 # Good
 from contextlib import suppress

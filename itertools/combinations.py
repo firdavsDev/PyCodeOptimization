@@ -23,6 +23,9 @@ def get_combinations(items, r):
 # Good
 from itertools import combinations
 
+item = [1, 2, 4, 5, 6]
+r = 3
+
 
 def get_combinations(items, r):
     return list(combinations(items, r))

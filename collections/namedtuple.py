@@ -13,7 +13,7 @@ Car = namedtuple("Car", ["make", "model", "year"])
 
 # Create an instance of the Car namedtuple
 my_car = Car(make="Toyota", model="Corolla", year=2020)
-
+nimdur = ("tayoto", "corrola", 2020)
 # Access fields by name
 print(my_car.make)  # Output: Toyota
 print(my_car.model)  # Output: Corolla

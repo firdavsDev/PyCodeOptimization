@@ -13,6 +13,7 @@ for key, value in data:
     if key not in grouped:
         grouped[key] = []
     grouped[key].append(value)
+print(grouped)
 
 # Good
 from itertools import groupby
@@ -23,6 +24,7 @@ sorted_data = sorted(data, key=itemgetter(0))
 grouped = {
     k: list(map(itemgetter(1), v)) for k, v in groupby(sorted_data, key=itemgetter(0))
 }
+print(grouped)
 
 
 def group_orders_by_status(request):

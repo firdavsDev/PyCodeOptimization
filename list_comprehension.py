@@ -4,8 +4,9 @@ List Comprehension
 """
 
 # bad
-fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
-newlist = []
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]  # Memory
+newlist = []  # memory
+
 for x in fruits:
     if "a" in x:
         newlist.append(x)
@@ -18,9 +19,6 @@ print(newlist)
 
 
 ############################### Django loyihada ################################
-# views.py da
-
-
 def user_list(request):
     # Bad
     active_users = []
