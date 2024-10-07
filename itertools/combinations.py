@@ -1,5 +1,9 @@
 """
 combinations(items, r) - berilgan items malumotlar asosida r martalik kambinatsiyalar tuzishda ishlatishiz mumkin.
+
+- Qachon ishlatamiz? Barcha mumkin bo'lgan variantlarni ko'rib chiqish kerak bo'lganda.
+- Nega bizga kerak? Qo'lda hisoblashdan ko'ra ancha samarali va xatosiz.
+- Qanchalik tezlashtiradi? Murakkab ichma-ich sikllar o'rniga bir qator kod bilan barcha kombinatsiyalarni olish mumkin.
 """
 
 

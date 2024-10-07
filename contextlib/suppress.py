@@ -1,3 +1,27 @@
+"""
+suppress() - ma'lum xatolarni e'tiborsiz qoldirish uchun kontekst menejeri.
+
+- Qachon ishlatamiz? Ba'zi xatolarni boshqarish kerak bo'lmaganda va ular dastur ishlashiga xalaqit bermasligi kerak bo'lganda.
+- Nega bizga kerak? Kodimizni soddalashtirib, keraksiz try-except bloklaridan qutulish uchun.
+- Qanchalik tezlashtiradi? Kod hajmini kamaytiradi va o'qishni osonlashtiradi.
+
+"""
+
+# Bad
+try:
+    os.remove("temp_file.txt")
+except FileNotFoundError:
+    pass
+
+import os
+
+# Good
+from contextlib import suppress
+
+with suppress(FileNotFoundError):
+    os.remove("temp_file.txt")
+
+
 # Contextlib modulidan misollar
 
 from contextlib import suppress
