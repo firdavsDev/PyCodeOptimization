@@ -7,3 +7,4 @@
 - [Github](https://github.com/firdavsDev/Advanced_Topic)
 - [Github](https://github.com/firdavsDev/advanced-python)
 - [Github](https://github.com/firdavsDev/Python_Advanced/tree/master/Advanced_Python)
+- [YouTube](https://youtu.be/a2SQ0XfB0fY?si=B9FdTF9Y8fFWA28o)
