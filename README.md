@@ -6,6 +6,7 @@
 - [Article](https://telegra.ph/Optimizing-Python-Performance--Uz-09-19) | uz
 - [YouTube](https://youtu.be/a2SQ0XfB0fY?si=B9FdTF9Y8fFWA28o) | uz
 - [Medium](https://davronbekdev.medium.com/advanced-python-en-ee02a34ec239) | en
+- [Telegram](https://t.me/davron_coder)
 - [Github](https://github.com/firdavsDev/Advanced_Topic)
 - [Github](https://github.com/firdavsDev/advanced-python)
 - [Github](https://github.com/firdavsDev/Python_Advanced/tree/master/Advanced_Python)
