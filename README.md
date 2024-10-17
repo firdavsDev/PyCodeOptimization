@@ -1,4 +1,4 @@
-# Optimizing Python Performance
+# Optimizing Python Performance | 🚀
 
 ## Useful Links
 
